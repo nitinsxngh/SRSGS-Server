@@ -9,7 +9,7 @@ const port = process.env.PORT || 5001;
 
 // Middleware
 app.use(cors({
-    origin: ["http://localhost:5173", "https://motor-mingle.web.app", "https://frolicking-squirrel-38089e.netlify.app/"]
+    origin: ["http://localhost:5173", "https://motor-mingle.web.app", "https://frolicking-squirrel-38089e.netlify.app"]
 }));
 app.use(express.json());
 
