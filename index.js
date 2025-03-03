@@ -454,11 +454,11 @@ run().catch(console.dir);
 
 // Checking if the server is running
 app.get("/", (req, res) => {
-    res.send("Motor Mingle Server is running fine");
+    res.send("SRSGS  Server is running fine");
 })
 
 
 // Checking the running port
 app.listen(port, () => {
-    console.log("Motor Mingle Server is running on port:", port)
+    console.log("SRSGS Server is running on port:", port)
 })
